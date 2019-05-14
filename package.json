@@ -1,5 +1,5 @@
 {
-  "name": "tutorial-backend",
+  "name": "hackernews-clone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,9 @@
     "express": "^4.16.4",
     "express-graphql": "^0.8.0",
     "graphql": "^14.3.0",
-    "graphql-yoga": "^1.17.4"
+    "graphql-yoga": "^1.17.4",
+    "prisma": "^1.32.2",
+    "prisma-client-lib": "^1.30.4"
   },
   "devDependencies": {
     "jest": "^24.8.0"
