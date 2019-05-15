@@ -13,3 +13,4 @@ With help of the tutorial on https://www.howtographql.com
 - AWS
 - Prisma
 - JWT
+- Express.js
