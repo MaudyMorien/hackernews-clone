@@ -1,5 +1,5 @@
 {
-  "name": "hackernews-clone",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -23,3 +23,4 @@
     "jest": "^24.8.0"
   }
 }
+S
