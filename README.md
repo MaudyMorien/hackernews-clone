@@ -14,3 +14,4 @@ With help of the tutorial on https://www.howtographql.com
 - Prisma
 - JWT
 - Express.js
+- React
