@@ -17,9 +17,7 @@
     "graphql-yoga": "^1.17.4",
     "jsonwebtoken": "^8.5.1",
     "prisma": "^1.32.2",
-    "prisma-client-lib": "^1.30.4"
-  },
-  "devDependencies": {
-    "jest": "^24.8.0"
+    "prisma-client-lib": "^1.30.4",
+    "jest": "24.7.1"
   }
 }
