@@ -1,27 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { AUTH_TOKEN } from '../constants'
 import { timeDifferenceForDate } from '../utils'
 import { Mutation } from 'react-apollo'
-import gql from 'graphql-tag'
-
-const VOTE_MUTATION = gql`
-  mutation VoteMutation($linkId: ID!) {
-    vote(linkId: $linkId) {
-      id
-      link {
-        votes {
-          id
-          user {
-            id
-          }
-        }
-      }
-      user {
-        id
-      }
-    }
-  }
-`
+import { VOTE_MUTATION } from '../querylib'
 
 const link = props => {
     const authToken = localStorage.getItem(AUTH_TOKEN)
