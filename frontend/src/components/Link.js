@@ -1,15 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Link extends Component {
-    render() {
+const link = props => {
         return (
             <>
             <div>
-                {this.props.link.description} ({this.props.link.url})
+                {props.link.description} ({props.link.url})
             </div>
             </>
         )
     }
-}
 
-export default Link
+export default link
