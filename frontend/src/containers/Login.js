@@ -36,20 +36,20 @@ class Login extends Component {
                     {!login && (
                         <input
                             value={name}
-                            onChange={e => this.setState({ name: e.target.value })}
+                            onChange={event => this.setState({ name: event.target.value })}
                             type="text"
                             placeholder="Your name"
                         />
                     )}
                     <input
                         value={email}
-                        onChange={e => this.setState({ email: e.target.value })}
+                        onChange={event => this.setState({ email: event.target.value })}
                         type="text"
                         placeholder="Your email address"
                     />
                     <input
                         value={password}
-                        onChange={e => this.setState({ password: e.target.value })}
+                        onChange={event => this.setState({ password: event.target.value })}
                         type="password"
                         placeholder="Choose a safe password"
                     />
