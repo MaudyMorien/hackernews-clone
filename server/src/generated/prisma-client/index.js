@@ -20,6 +20,21 @@ var models = [
 exports.Prisma = prisma_lib_1.makePrismaClientClass({
   typeDefs,
   models,
-  endpoint: `https://eu1.prisma.sh/maudy-1326b5/hackernews-clone/dev`
+  endpoint: ``,
+  secret: `mysecret123`
 });
 exports.prisma = new exports.Prisma();
+var models = [
+  {
+    name: "Link",
+    embedded: false
+  },
+  {
+    name: "User",
+    embedded: false
+  },
+  {
+    name: "Vote",
+    embedded: false
+  }
+];
