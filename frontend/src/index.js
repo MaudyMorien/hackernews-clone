@@ -13,9 +13,8 @@ import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { setContext } from 'apollo-link-context';
 import { AUTH_TOKEN } from './constants';
-import { runQuery } from 'apollo-server-core';
 
-const authLink = setContext((_, { headers }) => {
+const authLink = setContexgitt((_, { headers }) => {
   const token = localStorage.getItem(AUTH_TOKEN)
   return {
     headers: {
