@@ -1,4 +1,4 @@
-async function feed(parent, args, context) {
+const feed = async (parent, args, context) => {
   const count = await context.prisma
     .linksConnection({
       where: {
